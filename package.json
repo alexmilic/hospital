@@ -1,0 +1,23 @@
+{
+  "name": "nodemon-starter",
+  "version": "1.0.0",
+  "description": "Simple starter for Typescript with Nodemon.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "npm run lint && tsc",
+    "lint": "tslint src/**/*.ts"
+  },
+  "author": "Ivan Kockarevic",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
