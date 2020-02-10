@@ -1,0 +1,2 @@
+# hospital
+typescritp, express js
